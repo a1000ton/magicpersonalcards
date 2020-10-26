@@ -10,18 +10,18 @@ function App() {
         <div>
           <ul>
             <li>
-              <Link to="/">Magic Cards</Link>
+              <Link to="/magiccards">Magic Cards</Link>
             </li>
             <li>
-              <Link to="/mycards">My Cards</Link>
+              <Link to="/">My Cards</Link>
             </li>
           </ul>
 
           <Switch>
-            <Route path="/">
+            <Route path="/magiccards">
               <MagicCards />
             </Route>
-            <Route path="/mycards">
+            <Route path="/">
               <MyCards />
             </Route>
           </Switch>
